@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>
+            Ionic Blank
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button color="light">Add</button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- START BUTTONING -->
+    <!--<button ion-button full (click)="showAlert()">Speak!</button>
+
+    <h1>The year is now:</h1>
+    <h2>{{currentTime}}</h2>
+    <button ion-button color="danger" full (click)="travel()">GO DOC!</button>
+    <h1>Traveling to:</h1>
+    <h2>{{newTime | mypipe}}</h2>
+    <button ion-button>
+         Click Me!
+     </button>-->
+    <ion-list>
+        <ion-item>
+            <ion-label floating>User Name</ion-label>
+            <ion-input type="text"> </ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>User Password</ion-label>
+            <ion-input type="password"> </ion-input>
+        </ion-item>
+    </ion-list>
+    <button ion-button block color="primary" (click)="login()">Login!</button>
+
+    <h3>{{recievedData}}</h3>
+
+</ion-content>
